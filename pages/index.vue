@@ -21,6 +21,7 @@
         </a>
       </div>
     </div>
+    <h2>login</h2>
     <base-input label="Username" type="text" placeholder="Username"  v-model="username"/>
     <base-input label="Password" type="password" placeholder="********" v-model="password"/>
     <base-button type="test" />
