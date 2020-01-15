@@ -1,26 +1,5 @@
 <template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        Project-test
-      </h1>
-      <h2 class="subtitle">
-        My amazing Nuxt.js project
-      </h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
+  <div class="container flex flex-col">
     <h2>login</h2>
     <base-input label="Username" type="text" placeholder="Username"  v-model="username"/>
     <base-input label="Password" type="password" placeholder="********" v-model="password"/>
